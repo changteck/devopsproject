@@ -5,7 +5,7 @@ app.listen(8080, () => {
 });
 
 app.get("/", (req, res) => {
- res.send(["Hello, Minions!"]);
+ res.send(["Hello, Minions! I am Chang Teck"]);
 });
 
 app.get("/api", (req, res, next) => {
